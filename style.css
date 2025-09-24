@@ -1,0 +1,75 @@
+header {
+  background-color: #e6e4e4;
+  padding: 20px;
+  border: 2px black;
+  text-align: center;
+  margin-bottom: 10px;
+}
+header h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #f39a9a;
+  margin-top: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: 650;
+}
+#about article {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+#about article img {
+  display: block;
+  margin: 0 auto 20px;
+}
+#services h3 {
+  text-align: center;
+}
+#services {
+  margin-bottom: 50px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 5px;
+padding: 5px;
+text-align: center;
+}
+.service-item {
+  border: 1px black;
+  padding: 0px;
+  background-color: #e6e4e4;
+  border-radius: 8px;
+}
+.service-item img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 5px;
+}
+.service-item p {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+#consultation h3 {
+  text-align: center;
+}
+#consultation form {
+  text-align: center;
+}
+footer {
+  margin-top: 50px;
+  background-color: #e6e4e4;
+  text-align: center;
+}
